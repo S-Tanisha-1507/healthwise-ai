@@ -1,0 +1,348 @@
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Segoe UI',sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #eef7ff,
+        #ffffff,
+        #f8fbff
+    );
+
+    color:#333;
+
+    text-align:center;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav{
+
+    background:white;
+
+    padding:20px;
+
+    box-shadow:
+    0 2px 15px rgba(0,0,0,0.08);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+}
+
+nav h3{
+
+    color:#0080ff;
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.container{
+
+    margin-top:80px;
+
+    padding:30px;
+}
+
+h1{
+
+    font-size:64px;
+
+    color:#0077ff;
+
+    margin-bottom:15px;
+
+    text-shadow:
+    0 0 20px rgba(0,119,255,0.25);
+}
+
+h2{
+
+    color:#444;
+
+    margin-bottom:20px;
+}
+
+.container p{
+
+    font-size:18px;
+
+    color:#666;
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:30px;
+}
+
+/* =========================
+   INPUT
+========================= */
+
+textarea{
+
+    width:70%;
+
+    max-width:700px;
+
+    height:100px;
+
+    border:none;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    font-size:16px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.08);
+
+    resize:none;
+
+    outline:none;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button{
+
+    margin-top:25px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #0080ff,
+        #00b4ff
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 20px rgba(0,128,255,0.3);
+}
+
+/* =========================
+   RESULT CARD
+========================= */
+
+#result{
+
+    width:70%;
+
+    max-width:800px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+    text-align:left;
+}
+
+/* =========================
+   RISK CARDS
+========================= */
+
+.risk-card{
+
+    line-height:1.8;
+}
+
+.high{
+
+    border-left:8px solid #ff4d4d;
+    padding-left:20px;
+}
+
+.medium{
+
+    border-left:8px solid #ffb84d;
+    padding-left:20px;
+}
+
+.low{
+
+    border-left:8px solid #4caf50;
+    padding-left:20px;
+}
+
+ul{
+
+    margin-top:10px;
+    margin-left:20px;
+}
+
+/* =========================
+   PROGRESS BAR
+========================= */
+
+.progress{
+
+    width:100%;
+
+    height:20px;
+
+    background:#e0e0e0;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin:15px 0;
+}
+
+.progress-fill{
+
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ff6b6b,
+        #ff3b3b
+    );
+}
+
+/* =========================
+   SDG SECTION
+========================= */
+
+.sdg{
+
+    width:80%;
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   HEALTH TIPS
+========================= */
+
+.tips{
+
+    margin-top:60px;
+}
+
+.tip-card{
+
+    width:70%;
+
+    max-width:800px;
+
+    margin:20px auto;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.tip-card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* =========================
+   DISCLAIMER
+========================= */
+
+.disclaimer{
+
+    width:80%;
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    background:#fff8e6;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border-left:8px solid orange;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+
+    margin-top:60px;
+
+    background:#0080ff;
+
+    color:white;
+
+    padding:30px;
+
+    font-size:16px;
+}
